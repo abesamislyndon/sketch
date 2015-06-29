@@ -1,0 +1,132 @@
+header{
+	background: url(img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:715px; 
+ }
+
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.logo h1{
+	    font-family: 'glametrixbold';
+	    color:#fff;
+	    font-size:49px; 
+	    margin-top:50px;  
+}
+nav ul{
+	margin:50px 0;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin:10px 0px; 
+	padding:10px; 
+	font-family: 'Brandon Grotesque Medium';
+	font-size: 18px;	
+}
+
+nav ul  li a:hover{
+	text-decoration: none;
+	color:red;
+}
+
+nav ul li:last-child{
+	list-style: none;
+	display: inline-block;
+	margin:10px 20px; 
+	padding:10px 40px; 
+	border:1px solid #fff; 
+}
+
+nav ul li:last-child:hover{
+	background-color: red;
+}
+
+.tagline{
+	font-family: 'Brandon Grotesque Medium';
+	font-size:96px;
+	color: #fff;
+	line-height:0.8em; 
+}
+ .tagline-con{
+	margin-top: 100px;
+	line-height:3em; 
+}
+.tagline-con p {
+	color:#fff;
+	line-height:0.9em; 
+	font-size:25px; 
+	font-family: 'Brandon Grotesque Light';
+	height:250px; 
+}
+
+.tagline2{
+	background-color: #1b1a1a;
+	height:auto;
+}
+.tagline2 p{
+	text-align: center;
+	padding:40px; 
+	font-family: 'Brandon Grotesque Medium';
+	color:#fff;
+	font-size: 30px; 
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque Medium';
+    src: url('fonts/brandon_med-webfont.eot');
+    src: url('fonts/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandon_med-webfont.woff') format('woff'),
+         url('fnts/brandon_med-webfont.ttf') format('truetype'),
+         url('fonts/brandon_med-webfont.svg#brandon_grotesque_mediumRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glametrixbold';
+    src: url('fonts/glametrixbold-webfont.eot');
+    src: url('fonts/glametrixbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/glametrixbold-webfont.woff2') format('woff2'),
+         url('fonts/glametrixbold-webfont.woff') format('woff'),
+         url('fonts/glametrixbold-webfont.ttf') format('truetype'),
+         url('fonts/glametrixbold-webfont.svg#glametrixbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/background-photo-mobile-devices.jpg);
+  }
+	}
