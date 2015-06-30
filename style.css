@@ -77,6 +77,16 @@ nav ul li:last-child:hover{
 	color:#fff;
 	font-size: 30px; 
 }
+.services-con{
+	margin-top: 120px;
+	margin-bottom: 1120px;
+}
+.img-center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
 
 @font-face {
     font-family: 'Brandon Grotesque Medium';
